@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B10 Assignment-03</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- google font cdn -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+      <!-- tailwind and daisy ui cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!-- tailwind css configaration -->
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                primary: '#ABEF5F',
+                secondary: 'rgb(30, 30, 30)',
+              },
+              fontFamily: {
+                 Manrope: 'Manrope'
+              },
+             
+
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!-- header section -->
+    <header class="w-11/12 mx-auto">
+      <nav class="pt-10">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          
+          
+          <a class=" text-3xl font-extrabold"> 
+            <i class="fa-solid fa-arrow-right -rotate-45 bg-primary rounded-full p-1 mr-2"></i>Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal  px-1">
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Home</a></li>
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Services</a></li>
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Portfolio</a></li>
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Blogs</a></li>
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Contact Us</a></li>
+            
+          </ul>
+             
+          </ul>
+         
+        </div>
+        <div class="navbar-end">
+          <div class="mr-4 hidden lg:flex">
+            <i class="fa-solid fa-magnifying-glass mr-4 bg-[#E9E9E9] rounded-full p-2"></i>
+            <i class=" fa-solid fa-cart-shopping  bg-[#E9E9E9] rounded-full p-2"></i>
+          </div>
+          <a class="hidden lg:flex btn bg-primary font-extrabold text-xl">Book Consult
+            <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-[#1C1C1C] rounded-full p-1"></i>
+          </a>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-4">
+              <li class="hover:font-extrabold  duration-300 ease-in-out"><a>Home</a></li>
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Services</a></li>
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Portfolio</a></li>
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Blogs</a></li>
+            <li class="hover:font-extrabold duration-300 ease-in-out"><a>Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     
+       
+    </nav>
+    <!-- banner section -->
+    <div>
+      <div class="flex justify-center">
+      <img class="mt-12" src="assets/banner.png" alt="">
+      </div>
+      <div class="text-center">
+       <h1 class="text-4xl font-extrabold my-8">A barn house of this design has a <br> striking appearance</h1>
+       <p class="text-base font-medium text-[#494949] mb-5">The barn house captivates with its blend of rustic charm and modern <br> sophistication, featuring weathered wood, sleek metal accents, and large <br> windows that flood the space with natural light.</p>
+       <button class="text-xl font-bold bg-[rgba(171,239,95,0.5)] rounded-full p-2 w-52">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-primary rounded-full p-1 "></i></button>
+       
+      </div>
+    </div>
+
+    </header>
+   
+    <!-- footer section -->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
