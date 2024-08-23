@@ -26,7 +26,9 @@
               fontFamily: {
                  Manrope: 'Manrope'
               },
-             
+             backgroundImage: {
+              bgPrimary: "url('/assets/bg.jpg')",
+             }
 
             }
           }
@@ -281,12 +283,50 @@
 
        </section>
       <!-- lets connect section -->
-      
+       <section class="mt-24 bg-bgPrimary bg-no-repeat bg-cover">
+        <div class="text-center">
+          <button class="btn text-base mt-24 font-bold text-[#494949] bg-[rgba(171,239,95,0.2)] rounded-full"> <i class="fa-solid fa-arrow-right "></i>Let's Connect</button>
+          <h3 class="text-4xl mt-4 mb-6 font-bold text-[#212121]">Let's Discuss Next Project</h3>
+          <p class="text-base font-medium text-[#494949]">Let's Connect North Dundas showcases the infrastructure, roads and community projects <br> currently underway by the Township.</p>
+        </div>
+       <div class="w-11/12 mx-auto gap-x-6 mt-8 flex-col lg:flex-row flex justify-center items-center">
+       <div class="">
+        <input type="text" placeholder="First Name*" class="input input-bordered rounded-full w-full mb-6" />
+        <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full w-full mb-6 lg:mb-0" />
+       </div>
+       <div class="">
+        <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-full w-full mb-6" />
+        <input type="text" placeholder="Email Number*" class="input input-bordered rounded-full w-full" />
+       </div>
+       </div>
+       <div class="flex items-center justify-center mt-6">
+        <input type="text" placeholder="Write your message here" class="input input-bordered rounded-[32px] w-[450px] lg:w-[900px] py-28" />
+       </div>
+       
+      <div class="text-center pb-24">
+       <button class="btn bg-primary rounded-full mt-8 w-[450px] lg:w-[900px] font-extrabold text-xl"> Send Mail  <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-[#1C1C1C] rounded-full p-1 "></i></button>
+      </div>
+       </section>
 
     </main>
     <!-- footer section -->
-    <footer>
-
+    <footer class="bg-[#1C1C1C]">
+     <div class="text-center">
+     
+      <h3 class="text-3xl font-extrabold text-white pt-24"> <i class="fa-solid fa-arrow-right -rotate-45 bg-primary text-black rounded-[32px] p-1 "></i> Rinterio</h3>
+     <p class="text-base font-medium text-[#737373] mt-4 mb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem vero <br> perspiciatis maxime, expedita facilis.</p>
+     </div>
+     <ul class="text-center space-y-6 lg:space-y-0 lg:flex justify-center items-center gap-28">
+      <li class="text-base font-medium text-[#E9E9E9]"><a href="#">Home</a></li>
+      <li class="text-base font-medium text-[#E9E9E9]"><a href="#">Services</a></li>
+      <li class="text-base font-medium text-[#E9E9E9]"><a href="#">Portfolio</a></li>
+      <li class="text-base font-medium text-[#E9E9E9]"><a href="#">Blogs</a></li>
+      <li class="text-base font-medium text-[#E9E9E9]"><a href="#">Contact Us</a></li>
+     </ul>
+     <div class="text-center pb-24">
+      <button class="btn bg-primary w-[450px] lg:w-52 mt-12 rounded-full font-extrabold text-xl "> Book Consult  <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-[#1C1C1C] rounded-full p-1 "></i></button>
+     </div>
+  
     </footer>
     
 </body>
